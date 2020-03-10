@@ -16,4 +16,6 @@
 
 * `kubectl edit po {pod-name}` แก้ไข config ของ pod
 
+* `kubectl exec -it {pod-name} /bin/bash` shell เข้าไป container ภายใน pod
+
 * `kubectl delete po {pod-name}` ลบ pod
