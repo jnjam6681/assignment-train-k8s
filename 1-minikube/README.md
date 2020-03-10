@@ -18,6 +18,11 @@
 * `kubectl apply -f {yaml}` อัพเดตและสร้าง object (ได้หลายอันพร้อมกัน)
 * `kubectl delete -f  {yaml}` ลบ object
 
+* `kubectl api-resources` ดู kind ทั้งหมด
+* `kubectl api-versions` ดู apiVersion ทั้งหมด
+
 https://kubernetes.io/docs/tasks/tools/install-minikube/
 
 https://kubernetes.io/docs/tutorials/hello-minikube/#create-a-minikube-cluster
+
+https://kubernetes.io/docs/reference/kubectl/cheatsheet/
